@@ -58,9 +58,9 @@ export default function Features() {
   ];
 
   return (
-    <div className="bg-[url('/images/featuresBg.svg')]">
+    <div className="bg-[url('/images/featuresBg.svg')] px-3 lg:px-32">
       <h1 className="text-4xl font-bold text-center py-28">Features</h1>
-      <div className="grid grid-cols-3 gap-10">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
         {featuresItem.map((f, i) => (
           <div className="card rounded-3xl" key={i}>
             <div className="flex justify-center">
@@ -71,7 +71,7 @@ export default function Features() {
                 {f.title}
                 <img src={f.starImg} alt="" />
               </h1>
-              <p>{f.description}</p>
+              <p className="pt-6 text-base ps-10 pb-11">{f.description}</p>
             </div>
           </div>
         ))}
