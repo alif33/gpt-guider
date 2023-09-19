@@ -1,5 +1,6 @@
 import AudioVideo from "../components/AudioVideo";
 import Chat from "../components/Chat";
+import Diagram from "../components/Diagram";
 import Document from "../components/Document";
 import Features from "../components/Features";
 import Gpt from "../components/Gpt";
@@ -16,6 +17,7 @@ export default function Home() {
       <Document />
       <Chat />
       <AudioVideo />
+      <Diagram />
     </div>
   );
 }
