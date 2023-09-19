@@ -1,6 +1,6 @@
 export default function Plugin() {
   return (
-    <div className="bg-[url('/images/featuresBg.svg')] px-6 lg:px-32 pt-5 lg:pt-28">
+    <div className="bg-[url('/images/featuresBg.svg')] -mt-1 px-6 lg:px-32 pt-5 lg:pt-28">
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <div className="w-full">
           <img src="/images/pluginImg.svg" alt="" />
